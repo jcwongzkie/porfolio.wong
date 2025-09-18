@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+<section id="header">
+  <div class="header container">
+    <div class="nav-bar">
+      <div class="brand">
+        <a href="#hero"></a>
+      </div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li><a href="#hero" data-after="Home">Home</a></li>
+          <li><a href="#services" data-after="Service">Services</a></li>
+          <li><a href="#projects" data-after="Projects">Projects</a></li>
+          <li><a href="#about" data-after="About">About</a></li>
+          <li><a href="#contact" data-after="Contact">Contact</a></li>
+        </ul>
+        <!-- 🌙 Dark/Light Theme Toggle -->
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>John Clement C. Wong <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container" contenteditable="false">
+      <div class="service-top">
+        <h1 class="section-title">Services</h1>
+        <p>As a full-stack developer, I offer comprehensive and versatile services encompassing both front-end and back-end development. 
+          On the front end, I specialize in crafting engaging and user-friendly interfaces that prioritize seamless navigation and optimal user experience. 
+          Leveraging my proficiency in HTML, CSS, and JavaScript, I ensure visually appealing and responsive designs across various devices. Moving to the back end, 
+          I excel in designing robust and scalable architectures using technologies such as Node.js, Python, or Java. My expertise extends to database management, 
+          API integration, and server-side scripting, guaranteeing efficient data flow and system functionality. With a keen eye for detail and a commitment to delivering 
+          high-quality code, I bring innovative solutions to the table, addressing complex challenges and optimizing performance. Whether it's building a dynamic web application
+          or enhancing existing systems, I am dedicated to providing end-to-end development solutions that align with client goals and industry best practices.
+        </p>
+        <button class="edit-btn">✏️ Edit</button>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="img/html-img.jpg" /></div>
+          <h2>HTML</h2>
+          <p> As a HTML developer I am committed to delivering top-notch solutions that align seamlessly with your goals. From crafting visually appealing and responsive websites
+             to optimizing existing HTML code for enhanced performance, I've got you covered. I understand the importance of a strong online presence, and my HTML service are 
+             tailored to ensure your website stands out in the competitive digital landscape.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/javascript-img.jpg" /></div>
+          <h2>JavaScript</h2>
+          <p> As a JavaScript developer I am dedicated to deliver cutting-edge solutions, whether you're looking to build dynamic and responsive user interfaces,
+             robust server-side applications, or seamless integration of third-party libraries and APIs. I specialize in harnessing the power of popular JavaScript 
+             frameworks such as React, Angular, and Vue.js to create visually stunning and highly performant front-end experiences. </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/python-img.jpg" /></div>
+          <h2>Python</h2>
+          <p> My experience in Python offers a comprehensive range of services, including custom software development, data analysis, web development. 
+            I ensure that our Python services empower you to achieve your goals faster and with great precision building intuitive web applications to optimizing and 
+            automating your workflows, I am committed to providing top-notch Python solutions that drive success for your projects. </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/java-img.jpg" /></div>
+          <h2>Java</h2>
+          <p> My Java expertise encompasses a comprehensive service designed to empower businesses through robust and scalable solutions. Leveraging the versatility and 
+            platform independence of Java, my services cater to a diverse range of needs, from developing enterprise-level applications to crafting efficient backend systems.
+             As a Java developer I bring a wealth of experience in utilizing Java's object-oriented programming principles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container" contenteditable="false">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <!-- all your project-item divs remain unchanged -->
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Youtube</h2>
+            <p>In my role as a full-stack developer, I spearheaded a dynamic project focused on enhancing the user experience...</p>
+          </div>
+          <div class="project-img">
+            <img src="img/yt-img.jpg" alt="img">
+          </div>
+        </div>
+        <!-- repeat for Project 2, 3, 4, 5 (unchanged) -->
+      </div>
+      <button class="edit-btn">✏️ Edit</button>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container" contenteditable="false">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img/me-img.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Full Stack Developer</h2>
+        <p>
+          I am a Full Stack Developer driven by a commitment to excellence, a passion for problem-solving, and a relentless pursuit of knowledge. 
+          I am excited about the limitless possibilities of technology and am dedicated to pushing the boundaries of what can be achieved through thoughtful 
+          and efficient software development.
+        </p>
+        <button class="edit-btn">✏️ Edit</button>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container" contenteditable="false">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+63 1234567890</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>johnclement.wong@carsu.edu.ph</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Ampayon, Butuan City, Agusan Del Norte</h2>
+          </div>
+        </div>
+      </div>
+      <button class="edit-btn">✏️ Edit</button>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"></div>
+    </div>
+  </section>
+  <!-- End Footer -->
+
+<script src="./JS DOM TOGGLE DARK AND LIGHT.js" defer></script>
+<script>
+  // Edit button logic
+  document.addEventListener("DOMContentLoaded", () => {
+    const editButtons = document.querySelectorAll(".edit-btn");
+
+    editButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const section = btn.parentElement.closest("section, .container, .col-right, .col-left");
+        if (!section) return;
+
+        if (section.contentEditable === "true") {
+          section.contentEditable = "false";
+          btn.textContent = "✏️ Edit";
+        } else {
+          section.contentEditable = "true";
+          btn.textContent = "💾 Save";
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
